@@ -10,7 +10,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello my Bee!");
+            Console.WriteLine("Hello!");
 
             Console.WriteLine("Finding your save folder...");
 
@@ -46,7 +46,7 @@
 
             Console.WriteLine("Getting the character's data...");
 
-            var playerStatsFilePath = saveSlots[number].FullName; //+ @"\PlayerStats.dat";
+            var playerStatsFilePath = saveSlots[number].FullName;
 
             var subDirectoryInfo = new DirectoryInfo(playerStatsFilePath);
 
